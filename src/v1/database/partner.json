@@ -1,0 +1,27 @@
+[
+    {
+        "email": "john.doe@example.com",
+        "country": "USA",
+        "availableDates": ["2024-09-05", "2024-09-06", "2024-09-07"]
+    },
+    {
+        "email": "jane.smith@example.com",
+        "country": "USA",
+        "availableDates": ["2024-09-06", "2024-09-07"]
+    },
+    {
+        "email": "alice.johnson@example.com",
+        "country": "Canada",
+        "availableDates": ["2024-09-05", "2024-09-06"]
+    },
+    {
+        "email": "bob.brown@example.com",
+        "country": "Canada",
+        "availableDates": ["2024-09-06", "2024-09-07"]
+    },
+    {
+        "email": "carol.white@example.com",
+        "country": "UK",
+        "availableDates": ["2024-09-05", "2024-09-07"]
+    }
+]
