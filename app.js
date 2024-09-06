@@ -9,7 +9,14 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-mongoose.connect(process.env.MONGO_URL, (err) => {
+const mongoUsername = process.env.MONGO_DB_USER_NAME;
+const mongoPassword = process.env.MONGO_DB_PASSWORD;
+const mongoDbName = process.env.MONGO_DB_NAME;
+
+const mongoUrl =
+    process.env.MONGO_URL.replace('<db_username>', mongoUsername).replace('<db_password>', mongoPassword) + mongoDbName;
+
+mongoose.connect(mongoUrl, (err) => {
     if (err) {
         console.log(err);
     } else {
