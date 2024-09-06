@@ -1,5 +1,5 @@
 const express = require('express');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 const mongoose = require('mongoose');
 
 // Load Environment Variables
@@ -22,10 +22,10 @@ const productRouter = require('./src/v1/routes/productRoutes');
 const userRouter = require('./src/v1/routes/userRoutes');
 const submitAnswerRouter = require('./src/v1/routes/submitAnswerRoutes');
 
-// Use morgan to log requests to the console
-if (process.env.NODE_ENV === 'dev') {
-    app.use(morgan('dev'));
-}
+// // Use morgan to log requests to the console
+// if (process.env.NODE_ENV === 'dev') {
+//     app.use(morgan('dev'));
+// }
 
 // Set up express.json
 app.use(express.json());
