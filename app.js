@@ -304,7 +304,7 @@ app.use('/v1/partners', partnerRouter);
 app.use('/v1/products', productRouter);
 app.use('/v1/users', userRouter);
 app.use('/v1/submit-answer', submitAnswerRouter);
-app.use('/v1/oa3/getInput', (req, res) => {
+app.use('/v1/oa3/get-input', (req, res) => {
     res.json(input);
 });
 
