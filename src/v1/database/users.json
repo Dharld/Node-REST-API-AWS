@@ -1,0 +1,62 @@
+[
+    {
+        "avatar": "octocat.jpg",
+        "firstName": "John",
+        "lastName": "Doe",
+        "id": 67452
+    },
+    {
+        "avatar": "genie.png",
+        "firstName": "Michael",
+        "lastName": "Crowley",
+        "id": 78596
+    },
+    {
+        "avatar": "penguin.png",
+        "firstName": "Emma",
+        "lastName": "Smith",
+        "id": 12345
+    },
+    {
+        "avatar": "giraffe.png",
+        "firstName": "Olivia",
+        "lastName": "Jones",
+        "id": 56789
+    },
+    {
+        "avatar": "tiger.png",
+        "firstName": "Sophia",
+        "lastName": "Brown",
+        "id": 89012
+    },
+    {
+        "avatar": "lion.png",
+        "firstName": "Ava",
+        "lastName": "Wilson",
+        "id": 34567
+    },
+    {
+        "avatar": "dog.png",
+        "firstName": "James",
+        "lastName": "Anderson",
+        "id": 90123
+    },
+    {
+        "avatar": "cat.png",
+        "firstName": "Lily",
+        "lastName": "Davis",
+        "id": 23456
+    },
+    {
+        "avatar": "parrot.png",
+        "firstName": "Lucas",
+        "lastName": "Garcia",
+        "id": 34578
+    },
+    {
+        "avatar": "whale.png",
+        "firstName": "Mia",
+        "lastName": "Martinez",
+        "id": 45689
+    }
+]
